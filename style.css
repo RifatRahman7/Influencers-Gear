@@ -17,7 +17,6 @@ body {
 }
 
 .navbar-container {
-    /* list-style-type: none; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,29 +82,17 @@ nav ul {
     margin: 42px auto;
     justify-content: space-between;
     gap: 100px;
-    /* background-color: tomato; */
     background-image: url(./images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-position: right;
     height: 475px;
-    /* background-color: aquamarine; */
 }
 
 .image {
-    /* position: relative; */
     max-width: 500px;
 }
 
-/* .backimage {
-    width: 475px;
-    height: 475px;
-    object-fit: cover;
-  } */
-
 .cam {
-    /* position: absolute; */
-    /* top: 50px;   */
-    /* left: 30px;  */
     width: 440px;
     height: auto;
     max-width: 100%;
@@ -125,10 +112,7 @@ nav ul {
 .logo-container {
     max-width: 1110px;
     margin: 64px auto;
-    /* background-color: tomato; */
     height: 110px;
-    /* text-align: center; */
-    /* display: flex; */
 }
 
 .logos {
@@ -137,14 +121,10 @@ nav ul {
     justify-content: center;
     gap: 60px;
     align-items: center;
-
-    /* background-color: tomato; */
-    /* /* margin: 64px auto; */
 }
 
 .logo img {
     max-width: 85px;
-    /* justify-content: center; */
 }
 
 .popular {
@@ -223,7 +203,6 @@ nav ul {
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0px;
-    /* text-align: right; */
     border: none;
 }
 
@@ -232,11 +211,11 @@ nav ul {
     gap: 5px;
     color: rgba(224, 44, 109, 0.87);
 }
-.btn-container{
+
+.btn-container {
     text-align: right;
-    /* background-color: tomato; */
     margin-top: 50px;
-    margin-right: 90px;
+    margin-right: 200px;
 }
 
 
@@ -246,8 +225,6 @@ nav ul {
     .navbar-container {
         flex-direction: column;
         gap: 1rem;
-        /* background-color: tomato; */
-        /* max-width: 100%; */
     }
 
     .start {
@@ -262,7 +239,6 @@ nav ul {
     .navbar2 {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        /* background-color: tomato; */
     }
 
     .cam {
@@ -271,7 +247,6 @@ nav ul {
 
     .navbar1 {
         font-size: 1rem;
-        /* background-color: tomato; */
     }
 
     .journey {
@@ -308,6 +283,13 @@ nav ul {
         font-size: 1rem;
     }
 
+    .btn-container {
+        /* margin-right: none; */
+        /* background-color: tomato; */
+        /* margin-left: 200px; */
+        /* align-items: right; */
+        justify-content: bottom right;
+    }
 
 
 
