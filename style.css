@@ -284,13 +284,7 @@ nav ul {
     }
 
     .btn-container {
-        /* margin-right: none; */
-        /* background-color: tomato; */
-        /* margin-left: 200px; */
-        /* align-items: right; */
         justify-content: bottom right;
     }
-
-
 
 }
